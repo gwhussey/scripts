@@ -22,8 +22,8 @@ if ! command -v dnf &>/dev/null; then
   exit 1
 fi
 
-echo "→ Ensuring 'dnf-plugins-core' is installed..."
-dnf install -y dnf-plugins-core
+#echo "→ Ensuring 'dnf-plugins-core' is installed..."
+#dnf install -y dnf-plugins-core
 
 # 2. Enable the extra repo (this was the key step in your note)
 # Some images use 'powertools', some use 'crb'
